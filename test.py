@@ -11,6 +11,12 @@ class Person:
 
 
 
+
+
+
+
+
+
     def __del__(self):
         print(f'Object is being deconstructed!')
 
@@ -18,6 +24,13 @@ class Person:
 
     def add(self, a, b):
         return a + b
+
+
+
+
+
+
+
 
 
 
